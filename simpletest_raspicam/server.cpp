@@ -149,11 +149,14 @@ int main()
 
     string echo;
     while (client > 0)
-    {
-        // Welcome message to client
+    { 
+        int bbI = 0;
+        // Welcome messageto client
         while (1)
-        {
-            strcpy(buffer, "\n-> Welcome to echo server...\n");
+        {   
+            bbI+=1;
+            string strIndex = std::to_string(bbI);
+            strcpy(buffer, "\n-> Welcome to echo server...\n" + strIndex);
             send(client, buffer, bufSize, 0);
             usleep(100);
         }
