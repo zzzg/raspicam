@@ -15,7 +15,13 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
-
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+#include <fstream>
+#include <sstream>
+#include <sys/timeb.h>
+#include <raspicam/raspicam.h>
 using namespace std;
 
 int main()
@@ -145,8 +151,13 @@ int main()
     while (client > 0)
     {
         // Welcome message to client
-        strcpy(buffer, "\n-> Welcome to echo server...\n");
-        send(client, buffer, bufSize, 0);
+        while (1)
+        {
+            strcpy(buffer, "\n-> Welcome to echo server...\n");
+            send(client, buffer, bufSize, 0);
+            usleep(100);
+        }
+
         cout << "- Connected with the client, waiting for data..." << endl;
         // loop to recive messages from client
         do
