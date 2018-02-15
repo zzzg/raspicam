@@ -11,9 +11,9 @@ LINK_DIRECTORIES(${GTK3_LIBRARY_DIRS})
 #add_executable (simpletest_raspicam raspicam_still_test.cpp) # for bmp
 #add_executable (simpletest_raspicam draw.cpp) # for draw bitmap
 #add_executable (simpletest_raspicam raspicam_test.cpp)  
-#add_executable (simpletest_raspicam server.cpp)  #for socket server.cpp
+add_executable (simpletest_raspicam server.cpp)  #for socket server.cpp
 #add_executable (simpletest_raspicam gui_hello.cpp)  #for GUI
 #add_executable (simpletest_raspicam camera_gui.cpp)  #for GUI & camera
-add_executable (simpletest_raspicam gtk_hello.cpp)  #gtk
+#add_executable (simpletest_raspicam gtk_hello.cpp)  #gtk
 target_link_libraries (simpletest_raspicam ${raspicam_LIBS} X11 ${GTK3_LIBRARIES})
 #####################################
