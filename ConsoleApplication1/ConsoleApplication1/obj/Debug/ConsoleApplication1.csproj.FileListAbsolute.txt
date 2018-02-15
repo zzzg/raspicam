@@ -10,3 +10,9 @@ G:\!raspicam\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplicatio
 G:\!raspicam\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
 G:\!raspicam\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 G:\!raspicam\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+G:\raspicam\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+G:\raspicam\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+G:\raspicam\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+G:\raspicam\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+G:\raspicam\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+G:\raspicam\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
