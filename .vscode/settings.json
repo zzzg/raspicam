@@ -4,6 +4,7 @@
         "xlocnum": "cpp",
         "xstring": "cpp",
         "xutility": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "string": "cpp"
     }
 }

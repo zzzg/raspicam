@@ -156,7 +156,8 @@ int main()
         {   
             bbI+=1;
             string strIndex = std::to_string(bbI);
-            strcpy(buffer, "\n-> Welcome to echo server...\n" + strIndex);
+            strcpy(buffer,strIndex.c_str());
+            
             send(client, buffer, bufSize, 0);
             usleep(100);
         }
